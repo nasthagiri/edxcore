@@ -1,5 +1,5 @@
 """
-Common edx core utilities..
+Common edx core utilities.
 """
 
 from __future__ import absolute_import, unicode_literals

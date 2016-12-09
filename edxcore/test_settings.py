@@ -41,3 +41,5 @@ LOCALE_PATHS = [
 ROOT_URLCONF = 'edxcore.urls'
 
 SECRET_KEY = 'insecure-secret-key'
+
+SITE_NAME = "example.com"
