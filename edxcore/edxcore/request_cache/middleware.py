@@ -3,6 +3,8 @@ An implementation of a RequestCache. This cache is reset at the beginning
 and end of every request.
 """
 
+from __future__ import absolute_import, unicode_literals
+
 import threading
 import crum
 

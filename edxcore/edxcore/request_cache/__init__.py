@@ -5,6 +5,8 @@ This module requires that :class:`request_cache.middleware.RequestCache`
 is installed in order to clear the cache after each request.
 """
 
+from __future__ import absolute_import, unicode_literals
+
 import logging
 from urlparse import urlparse
 

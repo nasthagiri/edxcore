@@ -2,6 +2,8 @@
 Test utilities related to Request objects.
 """
 
+from __future__ import absolute_import, unicode_literals
+
 import crum
 
 from django.contrib.auth.models import AnonymousUser

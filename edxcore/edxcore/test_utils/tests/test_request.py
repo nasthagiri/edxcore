@@ -1,6 +1,8 @@
 """
 Test that testing utils do what they say.
 """
+from __future__ import absolute_import, unicode_literals
+
 from django.contrib.auth import get_user_model
 from django.contrib.auth.models import AnonymousUser
 from django.http.request import HttpRequest

@@ -1,6 +1,8 @@
 """
 Utilities related to caching.
 """
+from __future__ import absolute_import, unicode_literals
+
 import collections
 import cPickle as pickle
 import functools
